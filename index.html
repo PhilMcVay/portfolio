@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="hamburgers.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Phil McVay | Web Developer</title>
+</head>
+<body>
+
+  <button class="scroll-top-btn">
+    <i class="fas fa-angle-up"></i>
+  </button>
+
+  <div class="mobile-menu">
+    <div class="mobile-menu-inner">
+      <nav>
+        <ul>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="#skills-section">Skills</a></li>
+          <li><a href="#projects-section">Projects</a></li>
+          <li><a href="#contact-section">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="nav-wrapper">
+    <div class="logo">
+      <span><</span><span class="logo-end">PM /></span>
+    </div>
+    <button class="hamburger hamburger--slider" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+    <nav class="desktop-nav">
+      <ul>
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#skills-section">Skills</a></li>
+        <li><a href="#projects-section">Projects</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <header>
+    <div class="overlay"></div>
+    <div class="header-title">
+      <h1>Phil McVay</h1>
+      <h2>Web Developer</h2>
+      <h2>UK</h2>
+      <div class="social-links">
+        <a href="https://github.com/PhilMcVay" target="_blank"><i class="fab fa-github-square"></i></a>
+        <a href="https://www.linkedin.com/in/phil-mcvay-44b72813b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="./assets/CV - Latest.pdf" target="_blank"><i class="fas fa-file-alt"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about-section" class="max-width">
+    <div class="section-inner">
+      <h1 class="section-title"><span><</span>About /></h1>
+      <div class="about-section-info">
+        <h1>Hi!</h1>
+        <p>I'm a highly <strong>motivated</strong>, <strong>passionate</strong> Web Developer currently residing in the UK. I love taking designs and concepts, and creating <strong>fully responsive</strong>, <strong>user friendly</strong> websites and applications.</p>
+        <p>Since learning how to program, I have developed a passion for all things digital, building a <strong>variety of skills</strong> to help me provide <strong>high quality web solutions</strong> for businesses or for my own personal projects.</p>
+        <p>I am competent in a variety of front-end technolgies such as <strong>Javascript</strong>, <strong>React</strong> and <strong>Redux</strong> and am also comfortable with certain back-end technolgies such as <strong>Node</strong> and <strong>Express</strong>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills-section" class="max-width">
+    <div class="section-inner">
+      <h1 class="section-title"><span><</span>Skills /></h1>
+      <div class="skills-code-wrap max-width">
+        <pre><code>
+        let skillsList = {
+          frontEnd: [ 'HTML 5', 'CSS 3', 'SCSS', 'Javascript', 'ES6', 'React', 'Redux', 'jQuery' ],
+          backEnd: [ 'Node', 'Express', 'MongoDB' ],
+          tools: [ 'GIT', 'Craft CMS', 'API integretion', 'Photoshop' ]
+        }
+        </code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects-section" class="max-width">
+    <div class="section-inner">
+      <h1 class="section-title"><span><</span>Projects /></h1>
+      <div class="projects-grid">
+        <div class="project-item">
+          <a href="https://musician-hub.herokuapp.com/" target="_blank">
+            <img src="./assets/musician-hub.png" alt="">
+          </a>
+          <div class="project-info">
+            <h1>MusicianHub</h1>
+            <p>A social network application to help local musicians connect with each other and collaborate on musical projects. This is a full stack application using the MERN stack.</p>
+            <div class="project-cta-wrap">
+              <a href="https://musician-hub.herokuapp.com/" target="_blank" class="project-cta">View App</a>
+              <a href="https://github.com/PhilMcVay/musicianhub" target="_blank" class="project-cta">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-item">
+          <a href="https://codesandbox.io/s/github/PhilMcVay/indecision-app" target="_blank">
+            <img src="./assets/indecision.png" alt="">
+          </a>
+          <div class="project-info">
+            <h1>Indecision</h1>
+            <p>A simple app made in React that lets you enter some options and have the computer randomly choose one for you.</p>
+            <div class="project-cta-wrap">
+              <a href="https://codesandbox.io/s/github/PhilMcVay/indecision-app" target="_blank" class="project-cta">View App</a>
+              <a href="https://github.com/PhilMcVay/indecision-app" target="_blank" class="project-cta">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-item">
+          <a href="https://codepen.io/GhostNote90/full/rKXLyQ/" target="_blank">
+            <img src="./assets/github-finder.png" alt="">
+          </a>
+          <div class="project-info">
+            <h1>Github Finder</h1>
+            <p>An app built using modern javascript features such as Promises, Classes and async/await functions which lets you search for a github user based on their username.</p>
+            <div class="project-cta-wrap">
+              <a href="https://codepen.io/GhostNote90/full/rKXLyQ/" target="_blank" class="project-cta">View App</a>
+              <a href="https://github.com/PhilMcVay/github-finder" target="_blank" class="project-cta">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-item">
+          <a href="https://codepen.io/GhostNote90/full/VxNabE/" target="_blank">
+            <img src="./assets/loan-calculator.png" alt="">
+          </a>
+          <div class="project-info">
+            <h1>Loan Calculator</h1>
+            <p>A tool built in Vanilla JS to calculate the total repayments of a loan.</p>
+            <div class="project-cta-wrap">
+              <a href="https://codepen.io/GhostNote90/full/VxNabE/" target="_blank" class="project-cta">View App</a>
+              <a href="https://github.com/PhilMcVay/loan-calculator" target="_blank" class="project-cta">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-item">
+          <a href="https://codepen.io/GhostNote90/full/LmapyV/" target="_blank">
+            <img src="./assets/task-list.png" alt="">
+          </a>
+          <div class="project-info">
+            <h1>Task List</h1>
+            <p>A task list built with Vanilla Javascript with full CRUD functionality and browser local storage integration.</p>
+            <div class="project-cta-wrap">
+              <a href="https://codepen.io/GhostNote90/full/LmapyV/" target="_blank" class="project-cta">View App</a>
+              <a href="https://github.com/PhilMcVay/task-list" target="_blank" class="project-cta">View Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-section" class="max-width">
+    <div class="section-inner">
+      <h1 class="section-title"><span><</span>Contact /></h1>
+      <div class="contact-links">
+        <a href="mailto:phil.mcvay90@gmail.com" class="contact-link">
+          <i class="far fa-envelope"></i>
+          <p>Email</p>
+          <p>phil.mcvay90@gmail.com</p>
+        </a>
+        <a href="tel:07700362073" class="contact-link">
+          <i class="fas fa-mobile-alt"></i>
+          <p>Phone</p>
+          <p>+44 (0) 7700 362 073</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner max-width">
+      <div class="logo">
+        <span><</span><span class="logo-end">PM /></span>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:phil.mcvay90@gmail.com"><i class="far fa-envelope"></i></a>
+        <a href="tel:07700362073"><i class="fas fa-mobile-alt"></i></a>
+        <a href="https://github.com/PhilMcVay" target="_blank"><i class="fab fa-github-square"></i></a>
+        <a href="https://www.linkedin.com/in/phil-mcvay-44b72813b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="./assets/CV - Latest.pdf" target="_blank"><i class="fas fa-file-alt"></i></a>
+      </div>
+    </div>
+  </footer>
+
+<script src="main.js"></script>
+</body>
+</html>
