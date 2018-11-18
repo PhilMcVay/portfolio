@@ -2,6 +2,24 @@
   GENERAL
 **********/
 
+@font-face {
+  font-family: 'euclid flex';
+  font-weight: 100;
+  src: url('./assets/fonts/Euclid\ Flex-Light.otf') format('embedded-opentype'),
+       url('./assets/fonts/Euclid\ Flex-Light.ttf')  format('truetype'),
+       url('./assets/fonts/Euclid\ Flex-Light.woff2') format('woff2'),
+       url('./assets/fonts/Euclid\ Flex-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'euclid flex';
+  font-weight: 400;
+  src: url('./assets/fonts/Euclid\ Flex-Regular.otf') format('embedded-opentype'),
+       url('./assets/fonts/Euclid\ Flex-Regular.ttf')  format('truetype'),
+       url('./assets/fonts/Euclid\ Flex-Regular.woff2') format('woff2'),
+       url('./assets/fonts/Euclid\ Flex-Regular.woff') format('woff');
+}
+
 body {
   margin: 0;
   padding: 0;
