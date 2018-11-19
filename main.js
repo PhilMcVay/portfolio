@@ -1,7 +1,9 @@
 $(document).ready(function(){
 
   // Fade in on page load
-  $('body').fadeIn(1000)
+  setTimeout(function() {
+    $('body').fadeIn(1000)
+  }, 400)
 
   // Add background to nav when scrolled past top of the page
   // Toggle scroll to top button
