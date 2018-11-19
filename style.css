@@ -27,6 +27,7 @@ body {
   font-weight: 100;
   letter-spacing: 0.05rem;
   background-color: #f4f4f4;
+  display: none;
 }
 
 a {
