@@ -329,7 +329,10 @@ code {
   min-height: 250px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+}
+
+.project-info p {
+  flex: 1;
 }
 
 .project-cta-wrap {
